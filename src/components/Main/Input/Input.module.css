@@ -1,0 +1,161 @@
+.NavBar {
+  background-color: transparent!important;
+  display: block;
+  position: fixed;
+  bottom: 0px; 
+  left: 0px;
+  width: calc(100% - 260px);;
+  height: fit-content;
+  margin-left: 260px;
+  z-index: 1;
+  padding: 8px 0px 0px 0px;
+  font-family: Söhne,ui-sans-serif,system-ui,
+    -apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,
+    sans-serif,Helvetica Neue,Arial,Apple Color Emoji,
+    Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+  line-height: 24px;
+  background-image: linear-gradient(180deg,rgba(53,55,64,0),#353740 58.85%);
+  border: 0 solid #d9d9e3;
+}
+
+.NavBar form {
+  display: inline-flex;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 0.75rem;
+}
+
+.NavBar::after {
+  border: 0 solid #d9d9e3;
+  box-sizing: border-box;
+}
+
+.NavBar::before {
+  border: 0 solid #d9d9e3;
+  box-sizing: border-box;
+}
+
+.DivBotonRespuesta {
+  display: flex;
+  margin: 0px 0px 8px 0px;
+  justify-content: center;
+}
+
+.BotonRespuesta {
+  padding: 8px 12px;
+  border-width: 1px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: rgb(53, 50, 66);
+  border-color: rgba(87, 84 , 106);
+  display: inline-flex;
+  position: relative;
+  align-items: center;
+  cursor: pointer;
+  text-transform: none;
+  font-family: Söhne,ui-sans-serif,system-ui,
+    -apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,
+    sans-serif,Helvetica Neue,Arial,Apple Color Emoji,
+    Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: normal;
+  border-radius: 0.25rem;
+  appearance: none;
+}
+
+.BotonRespuesta div {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.BotonRespuesta div svg {
+  width: 12px;
+  height: 12px;
+}
+
+.BotonRespuesta:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(64,65,79,var(--tw-bg-opacity));
+}
+
+.DivTextArea {
+  border-width: 1px;
+  padding: 12px 0px 12px 16px;
+  border-color: rgba(32,33,35,.5);
+  border-radius: 0.375rem;
+  background-color: rgb(65, 62, 80);
+  width: 768px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  flex-grow: 1;
+  font-family: Söhne,ui-sans-serif,system-ui,
+    -apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,
+    sans-serif,Helvetica Neue,Arial,Apple Color Emoji,
+    Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+
+.DivTextArea textarea {
+  height: 24px;
+  max-height: 200px;
+  overflow-y: auto;
+  background-color: transparent;
+  padding: 0px 1.75rem 0px 0px;
+  margin: 0px;
+  border: 0px;
+  resize: none;
+}
+
+.DivTextArea textarea:focus {
+  outline: none;
+}
+
+.DivTextArea textarea::placeholder {
+  font-family: Söhne,ui-sans-serif,system-ui,
+    -apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,
+    sans-serif,Helvetica Neue,Arial,Apple Color Emoji,
+    Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+  color: rgb(142 , 137, 160);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.BotonTextArea {
+  display: block;
+  position: absolute;
+  right: 8px;
+  bottom: 10px;
+  padding: 4px;
+  opacity: .4;
+  background-color: transparent;
+  background-image: none;
+  text-transform: none;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none;
+}
+
+.BotonTextArea:hover {
+  opacity: 1;
+}
+
+.TextDerechosGPT {
+  padding: 12px 16px 24px 16px;
+  color: hsla(0,0%,100%,.5);
+  font-size: .75rem;
+  line-height: 1rem;
+  text-align: center;
+  display: block;
+}
+
+.TextDerechosGPT a {
+  color: hsla(0,0%,100%,.5);
+  text-decoration-line: underline;
+}
