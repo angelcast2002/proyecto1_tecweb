@@ -1,0 +1,8 @@
+.classSeparador {
+  position: absolute;
+  background-color: rgb(77, 77, 77);
+  height: 1px;
+  bottom: 256px;
+  left: 8px;
+  width: 252px;
+}

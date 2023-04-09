@@ -1,0 +1,15 @@
+.Main {
+  background-color: rgb(54, 51, 66);
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 260px;
+  width: calc(100vw - 260px);
+  height: 100vh;
+  overflow: auto;
+}
+
+.Main::-webkit-scrollbar {
+  display: none;
+}
