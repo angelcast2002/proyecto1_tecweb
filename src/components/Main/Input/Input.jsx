@@ -1,4 +1,5 @@
 import React from "react"
+import TextareaAutosize from "react-textarea-autosize"
 import {
   NavBar,
   DivBotonRespuesta,
@@ -6,6 +7,7 @@ import {
   DivTextArea,
   BotonTextArea,
   TextDerechosGPT,
+  TextAreaAutoSizeComponent,
 } from "./Input.module.css"
 
 const Input = () => {
@@ -36,7 +38,12 @@ const Input = () => {
             </button>
           </div>
           <div className={DivTextArea}>
-            <textarea placeholder="Send a message..." />
+            <TextareaAutosize
+              className={TextAreaAutoSizeComponent}
+              placeholder="Send a message..."
+              minRows={1}
+              maxRows={8.33333}
+            />
             <button type="button" className={BotonTextArea}>
               <svg
                 stroke="currentColor"
