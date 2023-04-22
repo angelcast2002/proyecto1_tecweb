@@ -6,7 +6,8 @@ const ButtonScroll = () => {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      if (window.scrollY > 100) {
+      console.log(window.scrollY)
+      if (window.scrollY < 50) {
         setShowTopBtn(true)
       } else {
         setShowTopBtn(false)
@@ -21,7 +22,6 @@ const ButtonScroll = () => {
   }
   return (
     <div>
-      {" "}
       {showTopBtn && (
         <button className={BotonScroll} type="button" onClick={scrollToBottom}>
           <svg
@@ -39,7 +39,7 @@ const ButtonScroll = () => {
             <polyline points="19 12 12 19 5 12" />
           </svg>
         </button>
-      )}{" "}
+      )}
     </div>
   )
 }
