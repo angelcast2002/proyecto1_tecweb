@@ -2,9 +2,13 @@
 
 <p align="center"> <img src="https://achoesgratiss.com/wp-content/uploads/2023/02/openAI-chat-gpt-1.jpg" width = "500"> </p>
 
-## Objetivo del proyecto
+## Detalles del proyecto
+    
+El proyecto debe ser visualizado en una pantalla 1920 x 1080 en un explorador que soporte el modo obscuro, con este ultimo activado, se recomieda usar firefox.
 
-<p align="center"> <img src="https://github.com/angelcast2002/proyecto1_tecweb/blob/main/1674305749266420903.jpg" width = "500"> </p>
+- Imagen a copiar
+
+    <p align="center"> <img src="https://github.com/angelcast2002/proyecto1_tecweb/blob/main/1674305749266420903.jpg" width = "500"> </p>
 
 ## Tecnologias implementadas
 - [React](https://es.react.dev/)
