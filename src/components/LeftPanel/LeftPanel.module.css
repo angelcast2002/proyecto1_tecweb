@@ -1,5 +1,5 @@
 .LeftPanel{
-  position: absolute;
+  position: relative;
   background-color: transparent;
   padding: 8px;
   width: 245px;

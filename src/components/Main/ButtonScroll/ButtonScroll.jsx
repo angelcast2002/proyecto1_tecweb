@@ -1,22 +1,30 @@
 import React, { useState, useEffect } from "react"
+import PropTypes from "prop-types"
 import { BotonScroll } from "./ButtonScroll.module.css"
 
-const ButtonScroll = () => {
+const ButtonScroll = ({ parentRef }) => {
   const [showTopBtn, setShowTopBtn] = useState(false)
 
   useEffect(() => {
-    window.addEventListener("scroll", () => {
-      console.log(window.scrollY)
-      if (window.scrollY < 50) {
-        setShowTopBtn(true)
-      } else {
+    const handleScroll = () => {
+      const { scrollTop, scrollHeight, clientHeight } = parentRef.current
+      if (scrollTop + clientHeight >= scrollHeight) {
         setShowTopBtn(false)
+      } else {
+        setShowTopBtn(true)
       }
-    })
-  }, [])
+    }
+
+    parentRef.current.addEventListener("scroll", handleScroll)
+
+    return () => {
+      parentRef.current.removeEventListener("scroll", handleScroll)
+    }
+  }, [parentRef])
+
   const scrollToBottom = () => {
-    window.scrollTo({
-      top: document.documentElement.scrollHeight,
+    parentRef.current.scroll({
+      top: parentRef.current.scrollHeight,
       behavior: "smooth",
     })
   }
@@ -45,3 +53,9 @@ const ButtonScroll = () => {
 }
 
 export default ButtonScroll
+
+ButtonScroll.propTypes = {
+  parentRef: PropTypes.shape({
+    current: PropTypes.instanceOf(Element),
+  }).isRequired,
+}

@@ -1,6 +1,6 @@
 .Chat{
   overflow: auto;
-  height: 645px;
+  height: calc(100% - 304px);
 }
 
 .Chat::-webkit-scrollbar {
