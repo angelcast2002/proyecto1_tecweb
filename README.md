@@ -1,6 +1,6 @@
 # Proyecto 1 Tecnoligías web
 
-<p align="center"> <img src="https://achoesgratiss.com/wp-content/uploads/2023/02/openAI-chat-gpt-1.jpg" width = "500"> </p>
+<p align="center"> <img src="https://achoesgratiss.com/wp-content/uploads/2023/02/openAI-chat-gpt-1.jpg" width = "800"> </p>
 
 ## Detalles del proyecto
     
@@ -8,7 +8,24 @@ El proyecto debe ser visualizado en una pantalla 1920 x 1080 en un explorador qu
 
 - Imagen a copiar
 
-    <p align="center"> <img src="https://github.com/angelcast2002/proyecto1_tecweb/blob/main/1674305749266420903.jpg" width = "500"> </p>
+    <p align="center"> <img src="https://github.com/angelcast2002/proyecto1_tecweb/blob/main/1674305749266420903.jpg" width = "900"> </p>
+    
+## Visualizar el proyecto
+
+Para poder visualizar lo alojado en este repositorio, luego de ser clonado, se debe dirigir hacia la carpeta en donde ha sido alojado.
+Luego se debe ejecutar:
+
+~~~
+yarn
+~~~
+
+Una vez hecho esto, se puede visualizar el contenido medianate el siguiente comando.
+
+~~~
+yarn dev
+~~~
+
+Con esto se nos mostrara una direccion a la cual podremos ingresar mediante un navegador web.
 
 ## Tecnologias implementadas
 - [React](https://es.react.dev/)
