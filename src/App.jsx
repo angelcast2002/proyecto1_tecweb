@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="app">
       <div className="fatherleftpanel">
-        <ButtonNewChat />
+        <ButtonNewChat text="New Chat" textColor="#fff" />
         <ChatIndividual />
         <Separador />
         <LeftPanel3 />
