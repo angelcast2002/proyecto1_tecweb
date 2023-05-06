@@ -22,13 +22,13 @@ const TextosRespuesta = {
   ],
   GTP: [
     "Para centrar un div horizontalmente y verticalmente, puedes utilizar las siguientes propiedades de CSS:",
-    "src/assets/codigo1.png",
+    "./src/assets/codigo1.png",
     "Esto centra el elemento div en el medio de su contenedor en ambas direcciones." +
       " Asegúrate de que el contenedor del div tenga una posición relativa o absoluta" +
       " para que el posicionamiento sea correcto.",
     "Para cambiar el color de fondo de un div en CSS, puedes usar la propiedad background-color." +
       " Por ejemplo, si quieres establecer el color de fondo de un div a rojo, puedes hacer lo siguiente:",
-    "src/assets/codigo2.png",
+    "./src/assets/codigo2.png",
     "Esto establece el color de fondo de un div a rojo.",
   ],
 }
@@ -38,7 +38,7 @@ const DivRespuesta = () => {
     <div className={DivGeneral}>
       <div className={DivGeneralUsuario}>
         <div className={DivImagenUsuario}>
-          <img src="src/assets/imgUsuario.png" alt="cas21700@uvg.edu.gt" />
+          <img src="./src/assets/imgUsuario.png" alt="cas21700@uvg.edu.gt" />
         </div>
         <div className={RespuestaUsuario}>
           <p>{TextosRespuesta.Humano[0]}</p>
@@ -66,7 +66,7 @@ const DivRespuesta = () => {
 
       <div className={DivGeneralGPT}>
         <div className={DivImagen}>
-          <img src="src/assets/imgChatGpt.png" alt="cas21700@uvg.edu.gt" />
+          <img src="./src/assets/imgChatGpt.png" alt="cas21700@uvg.edu.gt" />
         </div>
         <div className={RespuestaGTP}>
           <p>{TextosRespuesta.GTP[0]}</p>
@@ -114,7 +114,7 @@ const DivRespuesta = () => {
       </div>
       <div className={DivGeneralUsuario}>
         <div className={DivImagenUsuario}>
-          <img src="src/assets/imgUsuario.png" alt="cas21700@uvg.edu.gt" />
+          <img src="./src/assets/imgUsuario.png" alt="cas21700@uvg.edu.gt" />
         </div>
         <div className={RespuestaUsuario}>
           <p>{TextosRespuesta.Humano[1]}</p>
@@ -141,7 +141,7 @@ const DivRespuesta = () => {
       </div>
       <div className={DivGeneralGPT}>
         <div className={DivImagen}>
-          <img src="src/assets/imgChatGpt.png" alt="cas21700@uvg.edu.gt" />
+          <img src="./src/assets/imgChatGpt.png" alt="cas21700@uvg.edu.gt" />
         </div>
         <div className={RespuestaGTP}>
           <p>{TextosRespuesta.GTP[3]}</p>
