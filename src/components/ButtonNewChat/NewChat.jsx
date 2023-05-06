@@ -2,9 +2,10 @@ import React from "react"
 import PropTypes from "prop-types"
 import { NewChat } from "./NewChat.module.css"
 
-const ButtonNewChat = ({ text, textColor }) => {
+const ButtonNewChat = ({ text, textColor, backgroundColor }) => {
   const buttonTextColor = {
     color: textColor,
+    backgroundColor,
   }
   return (
     <div className={NewChat} style={buttonTextColor}>
@@ -31,6 +32,7 @@ const ButtonNewChat = ({ text, textColor }) => {
 ButtonNewChat.propTypes = {
   text: PropTypes.string.isRequired,
   textColor: PropTypes.string.isRequired,
+  backgroundColor: PropTypes.string.isRequired,
 }
 
 export default ButtonNewChat
