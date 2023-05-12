@@ -4,7 +4,7 @@
 
 ## Detalles del proyecto
     
-El proyecto debe ser visualizado en una pantalla 1920 x 1080 en un explorador que soporte el modo obscuro, con este ultimo activado, se recomieda usar firefox.
+El proyecto debe ser visualizado en una pantalla 1920 x 1080 en firefox.
 
 - Imagen a copiar
 
