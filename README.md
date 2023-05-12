@@ -8,7 +8,7 @@ El proyecto debe ser visualizado en una pantalla 1920 x 1080 en firefox.
 
 - Imagen a copiar
 
-    <p align="center"> <img src="https://github.com/angelcast2002/proyecto1_tecweb/blob/main/1674305749266420903.jpg" width = "900"> </p>
+<p align="center"> <img src="https://github.com/angelcast2002/proyecto1_tecweb/blob/main/1674305749266420903.jpg" width = "900"> </p>
     
 ## Visualizar el proyecto
 
